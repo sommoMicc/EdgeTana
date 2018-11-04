@@ -1,0 +1,57 @@
+/* main styles */
+body {
+
+}
+* {
+    font-family: 'Segoe UI';
+}
+
+h1 {
+    font-weight: 600;
+    font-size: .9em;
+    vertical-align: middle;
+}
+
+h1 > img {
+    vertical-align: middle;
+    margin-right: .8em;
+}
+
+p {
+    font-weight: 500;
+    font-size: .8em;
+    margin-bottom: 10px;  
+}
+
+button {
+    background: transparent;
+    border: 0px;
+    display:block;
+    width: 100px;
+    float:left;
+    cursor: pointer;
+
+    padding-bottom: 1em;
+}
+button > img {
+    max-width: 100%;
+}
+
+button.inactive > img {
+    filter: grayscale(100%);
+}
+
+span.message {
+    display: block;
+    background: #D3ECD9;
+    color: #155724;
+
+    border: 1px solid #c3e6cb;
+    border-radius: 2px;
+
+    margin-top: 1em;
+    padding: .5em;
+
+    clear: both;
+}
+
