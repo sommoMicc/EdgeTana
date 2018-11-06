@@ -79,9 +79,11 @@ function showSuccess(messageContent) {
     elementsToRemove[0].parentNode.removeChild(elementsToRemove[0]);
   }
   //Creation and display of new message
-  var newSpan = document.createElement("span");
+  let newSpan = document.createElement("span");
   newSpan.className = "message";
-  newSpan.innerHTML = messageContent;
+
+  let testo = document.createTextNode(messageContent);
+  newSpan.appendChild(testo)
 
   document.body.appendChild(newSpan);
   setTimeout(function() {
