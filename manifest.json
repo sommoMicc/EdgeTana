@@ -9,9 +9,6 @@
     "128": "images/icon128.png"
   },
   "permissions": [
-    "*://www.bing.com/*",
-    "*://www.google.com/*",
-    "tabs",
     "storage"
   ],
   "browser_action": {
